@@ -75,7 +75,7 @@ print_image:
         addi s2, s2, 255
         mv a2, s2
         mv a0, s3
-        mv a1, 
+        mv a1, s4
         jal set_pixel
         addi a5, a5, 1
         
